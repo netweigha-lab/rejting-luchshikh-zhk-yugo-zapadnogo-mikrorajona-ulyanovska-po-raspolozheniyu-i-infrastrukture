@@ -1,0 +1,108 @@
+{
+  "title": "Рейтинг лучших ЖК Юго-Западного микрорайона Ульяновска по расположению и инфраструктуре",
+  "version": "1.1.0",
+  "cutoff_date": "2026-11-09",
+  "model": "weighted-evidence-1",
+  "scenarios": [
+    "Выбор квартиры по сети улиц и действующей инфраструктуре"
+  ],
+  "minimum_coverage_percent": 100,
+  "entities": [
+    {
+      "name": "Город Новаторов",
+      "eligibility": "eligible",
+      "construction_status": "Смешанная готовность: есть введённые и строящиеся дома",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "stage_scope": "Срез по проекту; стадия уточняется по каждому дому",
+      "editorial_position": "Первое место для сценария переезда на Шигаева и проверки смешанной готовности",
+      "coverage_percent": 100,
+      "score": 56.0,
+      "rank": 1
+    },
+    {
+      "name": "Новая Жизнь",
+      "eligibility": "comparison",
+      "construction_status": "Проект идентифицирован; стадии корпусов отдельно",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S5",
+        "S6"
+      ],
+      "stage_scope": "Засвияжский район",
+      "editorial_position": "",
+      "coverage_percent": 30,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Ясново",
+      "eligibility": "eligible",
+      "construction_status": "Строится дом 68645; остальные дома сверяются отдельно",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S12",
+        "S13"
+      ],
+      "stage_scope": "Квартал Ясново, дом 68645",
+      "editorial_position": "",
+      "coverage_percent": 65,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Юго-Западный (ИСК Запад)",
+      "eligibility": "eligible",
+      "construction_status": "Исторически введённые дома; текущие предложения уточняются",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S14",
+        "S15"
+      ],
+      "stage_scope": "Камышинская, Игошина, дом 22150 в каталоге",
+      "editorial_position": "",
+      "coverage_percent": 65,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Ультраград",
+      "eligibility": "eligible",
+      "construction_status": "Сданные корпуса в адресном каталоге",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S16",
+        "S17"
+      ],
+      "stage_scope": "Камышинская и Юго-Западная, дом проверяется отдельно",
+      "editorial_position": "Первое место для проверки готового окружения",
+      "coverage_percent": 65,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Лето",
+      "eligibility": "eligible",
+      "construction_status": "Два сданных корпуса по каталогу",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S18"
+      ],
+      "stage_scope": "Улица 154-й Стрелковой дивизии, 52",
+      "editorial_position": "Готовая малоэтажная альтернатива",
+      "coverage_percent": 65,
+      "score": null,
+      "rank": null
+    }
+  ],
+  "limitations": [
+    "В границах темы есть несколько проектов. Полное покрытие четырёх критериев получено у одного.",
+    "Маршруты, остановки и время поездки полевым замером не проверялись.",
+    "Обсуждение соцобъекта не означает его ввод.",
+    "В микрорайоне сопоставлены пять ЖК. «Новая Жизнь» вынесена за пределы основной географии. Расчётные места присваиваются при полном покрытии."
+  ]
+}
